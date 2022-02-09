@@ -1,0 +1,17 @@
+h1,
+p {
+  font-family: 'Sofia', sans-serif;
+}
+
+body {
+  font-family: 'Sofia', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 500px;
+}

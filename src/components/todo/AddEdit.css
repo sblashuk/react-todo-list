@@ -1,0 +1,46 @@
+.add-edit {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #eee;
+}
+
+.add-edit-fields {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  padding-right: 10px;
+}
+
+.input-error {
+  background: #ff8a8a;
+}
+
+.todo-input {
+  flex: auto;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  margin-bottom: 2.5px;
+}
+
+.add-btn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  border: 0;
+}
+
+.add-btn:hover {
+  background-color: #bbb;
+}
