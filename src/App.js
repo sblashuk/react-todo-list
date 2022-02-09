@@ -47,8 +47,8 @@ export default function App() {
   };
 
   return (
-    <div class="container">
-      <div class="app">
+    <div className="container">
+      <div className="app">
         <Header />
         <AddEdit
           onSubmit={handleSubmit}

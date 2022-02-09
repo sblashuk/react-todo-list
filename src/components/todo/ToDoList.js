@@ -11,6 +11,7 @@ export default function ToDoList({
     <div>
       {toDoList.map((toDoItem, index) => (
         <ToDoItem
+          key={index}
           id={index}
           toDoItem={toDoItem}
           handleToggle={handleToggle}
